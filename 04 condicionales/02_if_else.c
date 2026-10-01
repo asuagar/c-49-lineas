@@ -3,9 +3,13 @@
  *
  * La estructura if-else permite definir dos caminos de ejecución 
  * según una condición. Sin embargo, en muchos problemas reales
- * necesitamos evaluar más de dos casos. Para ello, C permite 
- * encadenar condiciones mediante if-else-if, evaluando cada condición 
- * en orden hasta encontrar una verdadera.
+ * necesitamos evaluar más de dos casos. 
+ 
+ * Para ello, C permite encadenar condiciones mediante if-else-if, 
+ * evaluando cada condición en orden hasta encontrar una verdadera. 
+ * En el momento en que se encuentra una condición verdadera, se 
+ * ejecuta el bloque de código correspondiente y se omiten las 
+ * demás condiciones.
  *
  */
 
