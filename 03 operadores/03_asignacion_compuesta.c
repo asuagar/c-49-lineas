@@ -32,7 +32,7 @@ int main()
     printf("level /= 4 -> %d\n", level);
 
     level %= 3;  /* equivalente a level = level %% 3 */
-    printf("level %%= 3 -> %d\n", level);
+    printf("level = level % 3 -> %d\n", level);
 
     return 0;
 }
