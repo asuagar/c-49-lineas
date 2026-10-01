@@ -19,7 +19,7 @@ int main(void)
     if (dist < 20) {
         printf("Stop \n");
     } else {
-        print("Move \n");
+        printf("Move \n");
     }
 
     /* if-else-if */
