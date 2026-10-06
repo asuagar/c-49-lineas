@@ -4,30 +4,38 @@
  * Una sentencia compuesta o bloque agrupa instrucciones entre llaves.
  * Se usa, por ejemplo, en el cuerpo de un condicional o de un bucle.
  *
- * Un bloque interior puede usar nombres declarados en bloques
- * exteriores; el bloque exterior no puede usar nombres locales del
- * interior. Al salir del bloque termina la duración de las variables
- * automáticas declaradas en él.
- * 
+ * El ámbito es la región del programa en la que un identificador puede usarse.
+ * Un nombre declarado fuera de una función tiene ámbito de fichero y es visible
+ * hasta el final del fichero. Dentro de un bloque tiene ámbito de bloque y es
+ * visible hasta su final; el nombre declarado en un for solo vale en esa sentencia.
+ *
+ * Si un bloque interior declara el mismo nombre que uno exterior, el nombre
+ * interior oculta temporalmente al exterior. Son variables distintas; aunque C
+ * lo permite, conviene evitarlo si dificulta la lectura o la depuración.
+ *
  */
 
 #include <stdio.h>
 
-int main()
+/* ámbito global */
+int limit = 100; 
+
+int main(void)
 {
-    int angle = 90;
+    /* ámbito del bloque de main */
+    int speed = 80; 
+
+    printf("global-scope limit: %d\n", limit);
+    printf("main-scope speed: %d\n", speed);
 
     {
-        int corr = 5;
+        /* oculta speed declarado en main, le hace sombra (shadowing)*/
+        int speed = 40; 
 
-        angle += corr;
-        printf("Corrected angle: %d degrees\n", angle);
+        printf("local-scope speed: %d\n", speed);
+        printf("global-scope limit: %d\n", limit);
     }
-
-    printf("Final angle: %d degrees\n", angle);
-
-    /* produce un error, puesto que corr solo existe dentro del bloque*/
-    // printf("Correction: %d degrees\n", corr);
 
     return 0;
 }
+
