@@ -7,8 +7,8 @@ Un curso introductorio y progresivo de programación en C, organizado en ejemplo
 
 Los ejemplos de lenguaje se orientan a **C11**. El bloque de concurrencia usa interfaces **POSIX**, que no forman parte del estándar ISO C y están pensadas para sistemas compatibles, como Linux. En cada ejemplo, presentan cada función dentro de un caso concreto. Para profundizar, se recomienda consultar la documentación de la cabecera correspondiente:
 
-- [Cabeceras de la biblioteca estándar de C](https://en.cppreference.com/w/c/header): funciones, tipos y macros agrupados por cabecera.
-- [Referencia del lenguaje C](https://en.cppreference.com/w/c): sintaxis y características del lenguaje.
+- [Referencia del lenguaje C](https://devdocs.io/c/)
+- [Cabeceras de la biblioteca estándar de C](https://en.cppreference.com/w/c/header)
 
 ## Inicio rápido
 
