@@ -9,6 +9,11 @@ El límite de **49 líneas**, incluidos los comentarios, es una decisión didác
 
 Los ejemplos de lenguaje se orientan a **C11**. El bloque de concurrencia usa interfaces **POSIX**, que no forman parte del estándar ISO C y están pensadas para sistemas compatibles, como Linux.
 
+Los ejemplos presentan cada función dentro de un caso concreto. Para profundizar, se recomienda consultar la documentación de la cabecera correspondiente:
+
+- [Cabeceras de la biblioteca estándar de C](https://en.cppreference.com/w/c/header): funciones, tipos y macros agrupados por cabecera.
+- [Referencia del lenguaje C](https://en.cppreference.com/w/c): sintaxis y características del lenguaje.
+
 ## Inicio rápido
 
 ### Probar en línea
@@ -47,11 +52,6 @@ cc -std=c11 -Wall -Wextra -pedantic -pthread \
   "15 concurrencia/03_join_exit.c" -o hilos
 ./hilos
 ```
-
-## Referencias
-
-- [Cabeceras de la biblioteca estándar de C](https://en.cppreference.com/w/c/header): funciones, tipos y macros agrupados por cabecera.
-- [Referencia del lenguaje C](https://en.cppreference.com/w/c): sintaxis y características del lenguaje.
 
 ## Licencia
 
