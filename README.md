@@ -3,9 +3,7 @@
 [![Estándar C11](https://img.shields.io/badge/Est%C3%A1ndar-C11-00599C.svg?logo=c&logoColor=white)](https://en.cppreference.com/w/c)
 [![Licencia MIT](https://img.shields.io/badge/Licencia-MIT-green.svg)](./LICENSE)
 
-Un curso introductorio y progresivo de programación en C, organizado en ejemplos breves e independientes. Cada archivo `.c` presenta un concepto, lo explica en comentarios y permite observarlo en un programa pequeño.
-
-El límite de **49 líneas**, incluidos los comentarios, es una decisión didáctica: ayuda a centrar la atención en una idea cada vez y facilita leer, compilar y modificar el código. No pretende sustituir un manual completo del lenguaje ni las referencias técnicas.
+Un curso introductorio y progresivo de programación en C, organizado en ejemplos breves e independientes. Cada archivo `.c` presenta un concepto, lo explica en comentarios y permite observarlo en un programa pequeño. El límite de **49 líneas**, incluidos los comentarios, es una decisión didáctica: ayuda a centrar la atención en una idea cada vez. No pretende sustituir un manual completo del lenguaje ni las referencias técnicas.
 
 ## Estructura del curso
 
