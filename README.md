@@ -3,13 +3,9 @@
 [![Estándar C11](https://img.shields.io/badge/Est%C3%A1ndar-C11-00599C.svg?logo=c&logoColor=white)](https://en.cppreference.com/w/c)
 [![Licencia MIT](https://img.shields.io/badge/Licencia-MIT-green.svg)](./LICENSE)
 
-Un curso introductorio y progresivo de programación en C, organizado en ejemplos breves e independientes. Cada archivo `.c` presenta un concepto, lo explica en comentarios y permite observarlo en un programa pequeño. 
+Un curso introductorio y progresivo de programación en C, organizado en ejemplos breves e independientes. Cada archivo `.c` presenta un concepto, lo explica en comentarios y permite observarlo en un programa pequeño. El límite de **49 líneas**, incluidos los comentarios, es una decisión didáctica: ayuda a centrar la atención en una idea cada vez. No pretende sustituir un manual completo del lenguaje ni las referencias técnicas.
 
-El límite de **49 líneas**, incluidos los comentarios, es una decisión didáctica: ayuda a centrar la atención en una idea cada vez. No pretende sustituir un manual completo del lenguaje ni las referencias técnicas.
-
-Los ejemplos de lenguaje se orientan a **C11**. El bloque de concurrencia usa interfaces **POSIX**, que no forman parte del estándar ISO C y están pensadas para sistemas compatibles, como Linux.
-
-Los ejemplos presentan cada función dentro de un caso concreto. Para profundizar, se recomienda consultar la documentación de la cabecera correspondiente:
+Los ejemplos de lenguaje se orientan a **C11**. El bloque de concurrencia usa interfaces **POSIX**, que no forman parte del estándar ISO C y están pensadas para sistemas compatibles, como Linux. En cada ejemplo, presentan cada función dentro de un caso concreto. Para profundizar, se recomienda consultar la documentación de la cabecera correspondiente:
 
 - [Cabeceras de la biblioteca estándar de C](https://en.cppreference.com/w/c/header): funciones, tipos y macros agrupados por cabecera.
 - [Referencia del lenguaje C](https://en.cppreference.com/w/c): sintaxis y características del lenguaje.
