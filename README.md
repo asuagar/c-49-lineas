@@ -70,7 +70,7 @@ cc -std=c11 -Wall -Wextra -pedantic -pthread \
 
 ## Referencias
 
-- [Cabeceras de la biblioteca estándar de C](https://en.cppreference.com/w/c/header): funciones, tipos y macros agrupados por cabecera, como `<stdio.h>`, `<stdlib.h>` y `<string.h>`.
+- [Cabeceras de la biblioteca estándar de C](https://en.cppreference.com/w/c/header): funciones, tipos y macros agrupados por cabecera.
 - [Referencia del lenguaje C](https://en.cppreference.com/w/c): sintaxis y características del lenguaje.
 
 ## Licencia
