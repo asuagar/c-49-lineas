@@ -4,7 +4,7 @@
  * Typedef permite crear un alias (nombre alternativo) para un tipo.
  * Se puede aplicar a struct, union y  enum. No define un tipo nuevo, 
  * sino otra forma de referirse al mismo tipo. Al usarlo, no hace 
- * falta escribir la palabra clave struct, union o enum.
+ * falta escribir la palabra clave struct, union o enum al incializar.
  * 
  * Su principal ventaja es simplificar la sintaxis y mejorar la legibilidad.
  * Sin embargo, este beneficio tiene un coste: el alias puede ocultar
