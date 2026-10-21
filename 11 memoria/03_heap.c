@@ -22,7 +22,7 @@
 
 int main(void)
 {
-    int *p = malloc(2 * sizeof(*p)); /* int *p = malloc(2 * sizeof(int)) */
+    int *p = malloc(2 * sizeof(int));
     if (p == NULL) {
         return 1;
     }
@@ -37,7 +37,7 @@ int main(void)
     p[0] = 10;
     printf("calloc: %d %d\n", p[0], p[1]); 
 
-    int *t = realloc(p, 3 * sizeof(*p));  /* ampliar a 3 elementos */
+    int *t = realloc(p, 3 * sizeof(int));  /* ampliar a 3 elementos */
     if (t== NULL) {
         return 1;
     }
