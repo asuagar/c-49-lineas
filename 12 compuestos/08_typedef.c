@@ -2,7 +2,7 @@
  * typedef
  *
  * Typedef permite crear un alias (nombre alternativo) para un tipo.
- * Se puede apicar a struct, union y  enum. No define un tipo nuevo, 
+ * Se puede aplicar a struct, union y  enum. No define un tipo nuevo, 
  * sino otra forma de referirse al mismo tipo. Al usarlo, no hace 
  * falta escribir la palabra clave struct, union o enum.
  * 
@@ -18,23 +18,23 @@
 typedef struct {
     int x;
     int y;
-} Point;
+} point;
 
 typedef enum {
     OFF,
     ON
-} State;
+} state;
 
 typedef union {
     int i;
     float f;
-} Value;
+} value;
 
 int main(void)
 {
-    Point p = {1, 2};
-    State s = ON;
-    Value v;
+    point p = {1, 2};
+    state s = ON;
+    value v;
 
     v.i = 10;
 
