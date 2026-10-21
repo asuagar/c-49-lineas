@@ -31,13 +31,14 @@ int main(void)
     *reading = 42;
     printf("Sensor reading: %d\n", *reading);
 
-    /* ERROR: se pierde la referencia sin liberar memoria 
-     * El orden correcto sería:
-     * free(reading);
-     * reading = NULL;
+    /* se pierde la referencia sin liberar memoria
+     * no se devuelve la memoria al gestor para
+     * que pueda volver a reutilizarla
      */
+
     reading = NULL;
     free(reading);
 
     return 0;
 }
+
