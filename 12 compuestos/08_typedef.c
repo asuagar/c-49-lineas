@@ -18,17 +18,17 @@
 typedef struct {
     int x;
     int y;
-} point;
+} point;  /* 'point' es el alias de tipo*/
 
 typedef enum {
     OFF,
     ON
-} state;
+} state;  /* 'state' es el alias */
 
 typedef union {
     int i;
     float f;
-} value;
+} value;  /* 'union' es el alias */
 
 int main(void)
 {
