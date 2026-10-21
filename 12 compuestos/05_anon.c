@@ -19,7 +19,7 @@ int main(void)
     struct {
         int pos;
         int speed;
-    } axis;           /*'axis' es un alias de ese struct */
+    } axis;           /* 'axis' es un alias de ese struct */
 
     union {
         int dist;
