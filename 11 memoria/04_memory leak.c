@@ -22,7 +22,7 @@
 int main(void)
 {
     /* reservar memoria para leer el valor del sensor */
-    int *reading = malloc(sizeof *reading);
+    int *reading = malloc(sizeof(*reading));
     if (reading == NULL) {
         return 1;
     }
