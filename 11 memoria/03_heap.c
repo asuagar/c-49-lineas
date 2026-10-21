@@ -22,7 +22,7 @@
 
 int main(void)
 {
-    int *p = malloc(2 * sizeof(*p)); // int *p = malloc(2 * sizeof(int))
+    int *p = malloc(2 * sizeof(*p)); /* int *p = malloc(2 * sizeof(int)) */
     if (p == NULL) {
         return 1;
     }
