@@ -24,8 +24,8 @@ void move(struct point *p)
 
 int main(void)
 {
-    struct point point = {1, 2};
-    struct point *ptr = &point;  /* puntero a estructura */
+    struct point p1 = {1, 2};
+    struct point *ptr = &p1;  /* puntero a estructura */
     printf("before: (%d, %d)\n", ptr->x, ptr->y);
 
     move(ptr);  /* pasar dirección */
