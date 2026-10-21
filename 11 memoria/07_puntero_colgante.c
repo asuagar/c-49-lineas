@@ -14,14 +14,21 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-
 int main(void)
 {
     int *p = malloc(3 * sizeof(int));
-
     if (p == NULL) {
         return 1;
     }
+
+    /* por ser puntero, no puede inicalizarse como array 
+     * es necesario crear un array después asignarlo 
+     *
+     * int valores[] = {1, 2, 3};
+     * int *p = valores;
+     *
+     * o asignar los valores uno a uno:
+     */
 
     p[0] = 1;
     p[1] = 2;
