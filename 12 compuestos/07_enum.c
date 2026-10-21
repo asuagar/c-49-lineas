@@ -18,7 +18,7 @@
 
 #include <stdio.h>
 
-enum State {
+enum state {
     IDLE,        /* 0 */
     RUNNING,     /* 1 */
     ERROR = 10,  /* valor explícito */
@@ -27,7 +27,7 @@ enum State {
 
 int main(void)
 {
-    enum State s = ON;
+    enum state s = ON;
 
     printf("IDLE=%d, RUNNING=%d\n", IDLE, RUNNING);
     printf("ERROR=%d, STOPPED=%d\n", ERROR, STOPPED);
