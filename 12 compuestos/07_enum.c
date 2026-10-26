@@ -26,11 +26,10 @@ enum state {
 
 int main(void)
 {
-    enum state s = IDLE;
-
     printf("IDLE=%d, RUNNING=%d\n", IDLE, RUNNING);
     printf("ERROR=%d, STOPPED=%d\n", ERROR, STOPPED);
 
+    enum state s = IDLE;
     switch (s) {
         case STOPPED:
             printf("System is off\n");
