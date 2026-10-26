@@ -15,7 +15,6 @@
  * control como switch, donde cada caso corresponde a un valor del enum.
  *
  */
-
 #include <stdio.h>
 
 enum state {
@@ -27,17 +26,17 @@ enum state {
 
 int main(void)
 {
-    enum state s = ON;
+    enum state s = IDLE;
 
     printf("IDLE=%d, RUNNING=%d\n", IDLE, RUNNING);
     printf("ERROR=%d, STOPPED=%d\n", ERROR, STOPPED);
 
     switch (s) {
-        case OFF:
+        case STOPPED:
             printf("System is off\n");
             break;
 
-        case ON:
+        case IDLE:
             printf("System is on\n");
             break;
 
