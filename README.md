@@ -25,22 +25,21 @@ sudo apt update
 sudo apt install build-essential
 ```
 
-Clona el repositorio y compila el primer ejemplo con `cc`:
+Para compilar un fichero con `cc`, se usa el siguiente comando:
 
 ```bash
-git clone https://github.com/asuagar/c-49-lineas.git
-cd c-49-lineas
-cc -std=c11 -Wall -Wextra -pedantic \
-  "01 hola mundo/01_hello_world.c" -o hola
-./hola
+# -std=c11 selecciona el estándar C11.
+# -Wall y -Wextra activan avisos del compilador.
+# -pedantic avisa sobre extensiones fuera del estándar.
+# -o indica el nombre del ejecutable.
+cc -std=c11 -Wall -Wextra -pedantic fichero.c -o nombre_binario
 ```
 
-Cada archivo se compila por separado. Para los ejemplos POSIX de concurrencia, añade `-pthread` al comando de compilación y enlazado, por ejemplo:
+Para los ejemplos POSIX de concurrencia, añade `-pthread` al comando de compilación y enlazado:
 
 ```bash
-cc -std=c11 -Wall -Wextra -pedantic -pthread \
-  "15 concurrencia/03_join_exit.c" -o hilos
-./hilos
+# -pthread: enlaza a la biblioteca para hilos POSIX.
+cc -std=c11 -Wall -Wextra -pedantic -pthread fichero.c -o nombre_binario
 ```
 
 ## Licencia
