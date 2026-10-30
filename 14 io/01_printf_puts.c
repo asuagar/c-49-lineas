@@ -1,5 +1,5 @@
 /*
- * printf
+ * printf puts
  *
  * Para combinar texto con valores, C proporciona printf.
  * Contiene texto literal y conversiones que indican 
