@@ -8,7 +8,7 @@ Un curso introductorio y progresivo de programación en C, organizado en ejemplo
 Los ejemplos de lenguaje se orientan a **C11**. El bloque de concurrencia usa interfaces **POSIX**, que no forman parte del estándar ISO C y están pensadas para maximizar la compatibilidad en sistemas operativos UNIX. En cada ejemplo, se presenta una función dentro de un caso concreto. Para profundizar, se recomienda consultar la documentación de la cabecera correspondiente:
 
 - [Cabeceras de la biblioteca estándar de C](https://en.cppreference.com/w/c/header)
-- [Standard C Library Functions](https://www.ibm.com/docs/en/i/7.5.0?topic=extensions-standard-c-library-functions-table-by-name)
+- [Standard C Library Functions](https://www.ibm.com/docs/en/i/7.6.0?topic=extensions-standard-c-library-functions-table-by-name)
 
 ## Inicio rápido
 
@@ -30,9 +30,8 @@ Para compilar un fichero con `cc`, se usa el siguiente comando:
 ```bash
 # -std=c11 selecciona el estándar C11.
 # -Wall y -Wextra activan avisos del compilador.
-# -pedantic avisa sobre extensiones fuera del estándar.
 # -o indica el nombre del ejecutable.
-cc -std=c11 -Wall -Wextra -pedantic fichero.c -o nombre_binario
+cc -std=c11 -Wall -Wextra fichero.c -o nombre_binario
 ```
 
 Para los ejemplos POSIX de concurrencia, añade `-pthread` al comando de compilación y enlazado:
