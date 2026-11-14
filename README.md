@@ -14,7 +14,7 @@ Los ejemplos de lenguaje se orientan a **C11**. El bloque de concurrencia usa in
 
 ### Probar en línea
 
-Para empezar sin instalar herramientas, se puede usar [OnlineGDB para C](https://www.onlinegdb.com/online_c_compiler). Selecciona C, pega el contenido de un archivo `.c` y ejecútalo. Los ejemplos de concurrencia requieren soporte POSIX y no se ejecutarán en todos los compiladores en línea. Para ellos, usa un entorno Linux.
+Se puede seguir el tutorial usando un compilador online como [OnlineGDB para C](https://www.onlinegdb.com/online_c_compiler). Selecciona C, pega el contenido de un archivo `.c` y ejecútalo. Los ejemplos de concurrencia requieren soporte POSIX y no se ejecutarán en todos los compiladores en línea. Para ellos, usa un entorno Linux.
 
 ### Compilar en Linux
 
